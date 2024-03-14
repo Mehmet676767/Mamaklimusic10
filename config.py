@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6650825160))
+OWNER_ID = int(getenv("OWNER_ID", 6532412571))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Mamaklicengo/k-y-c-music",
+    "https://github.com/Mamaklicengo/Mamaklimusic10",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/yoodelidegil")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kiyicitayfaa")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mamaklibirininruhu")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mamaklimekani")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/resim-03-14"
+    "START_IMG_URL", "https://telegra.ph/Yeni-11-29"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/resim-03-14"
+    "PING_IMG_URL", "https://telegra.ph/Yeni-11-29"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/resim-03-14"
-STATS_IMG_URL = "https://telegra.ph/resim-03-14"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/resim-03-14"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/resim-03-14"
-STREAM_IMG_URL = "https://telegra.ph/resim-03-14"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/resim-03-14"
-YOUTUBE_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/resim-03-14"
+PLAYLIST_IMG_URL = "https://telegra.ph/Eski-11-29"
+STATS_IMG_URL = "https://telegra.ph/Eski-11-29"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/Eski-11-29"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/Eski-11-29"
+STREAM_IMG_URL = "https://telegra.ph/Eski-11-29"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/Eski-11-29"
+YOUTUBE_IMG_URL = "https://telegra.ph/Eski-11-29"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Eski-11-29"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Eski-11-29"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Eski-11-29"
 
 
 def time_to_seconds(time):

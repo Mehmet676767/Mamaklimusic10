@@ -37,6 +37,7 @@ channelconnect = {}
 langm = {}
 loop = {}
 maintenance = []
+cleanmode = []
 nonadmin = {}
 pause = {}
 playmode = {}

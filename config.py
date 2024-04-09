@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mamaklibirininruhu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mamaklimekani")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mehmetttbio")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hissizmehmet")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/Yeni-11-29"
+    "START_IMG_URL", "https://telegra.ph/Guzel-03-30"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/Yeni-11-29"
+    "PING_IMG_URL", "https://telegra.ph/Guzel-03-30"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/Eski-11-29"
-STATS_IMG_URL = "https://telegra.ph/Eski-11-29"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/Eski-11-29"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/Eski-11-29"
-STREAM_IMG_URL = "https://telegra.ph/Eski-11-29"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/Eski-11-29"
-YOUTUBE_IMG_URL = "https://telegra.ph/Eski-11-29"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Eski-11-29"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Eski-11-29"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Eski-11-29"
+PLAYLIST_IMG_URL = "https://telegra.ph/Guzel-03-30"
+STATS_IMG_URL = "https://telegra.ph/Guzel-03-30"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/Guzel-03-30"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/Guzel-03-30"
+STREAM_IMG_URL = "https://telegra.ph/Guzel-03-30"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/Guzel-03-30"
+YOUTUBE_IMG_URL = "https://telegra.ph/Guzel-03-30"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Guzel-03-30"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Guzel-03-30"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Guzel-03-30"
 
 
 def time_to_seconds(time):
